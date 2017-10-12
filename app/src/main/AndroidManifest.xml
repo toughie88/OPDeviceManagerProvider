@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.oneplus.odm.provider">
+
+  <application android:label="@string/app_label">
+    <provider
+        android:name=".PayloadProvider"
+        android:authorities="net.oneplus.odm.provider.PayloadProvider"
+        android:exported="true"/>
+  </application>
+</manifest>
